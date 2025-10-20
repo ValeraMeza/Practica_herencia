@@ -2,8 +2,8 @@ import { Estudiante } from "./Estudiante.js";
 import { Profesor } from "./Profesor.js";
 import { PersonalServicio } from "./PersonalServicio.js";
 
-const estudiante = new Estudiante("Ana", "Lopez", "123456", "Soltera", "3er Año");
-const profesor = new Profesor("Luis", "Martinez", "789012", "Casado", 2015, 101, "Lenguajes");
+const estudiante = new Estudiante("Mia", "Loreto", "123456", "Soltera", "3er Año");
+const profesor = new Profesor("Lucas", "Alvarez", "789012", "Casado", 2015, 101, "Lenguajes");
 const personal = new PersonalServicio("Carla", "Perez", "345678", "Soltera", 2018, 202, "Biblioteca");
 
 console.log("\n--- Información Inicial ---");
